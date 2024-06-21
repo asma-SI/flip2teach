@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+  }
+  h1{
+    text-align: center;
+    color: #e306ca;
+
+  }
+  body{
+    justify-items: center;
+    background-color: aquamarine;
+  }
+  img {
+    border-radius: 25px;
+  }
+  
+  .wrapper1{
+    width:225vh;
+    height:100vh;
+    justify-content: space-around;
+    display: flex;
+   
+  }
+
+.wrapper2{
+  justify-content: space-around;
+  display: flex;
+  height:100vh;
+  width: 225vh;
+}
+.top{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    height: 500px;
+    perspective: 800px;
+   
+}
+
+.bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  height: 500px;
+  perspective: 800px;
+}
+
+  .card1 {
+    height: 80%;
+    width: 800%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  .card2 {
+    height: 80%;
+    width: 800%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  .card3 {
+    height: 80%;
+    width: 800%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  .card4 {
+    height: 80%;
+    width:  800%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  .card5 {
+    height: 80%;
+    width:  800%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  .card6 {
+    height: 80%;
+    width: 800%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+
+  .card1:hover {
+    cursor: pointer;
+    transform: rotateY(180deg);
+  }
+  .card2:hover {
+    cursor: pointer;
+    transform: rotateY(180deg);
+  }
+
+  .card3:hover {
+    cursor: pointer;
+    transform: rotateY(180deg);
+  }
+
+  .card4:hover {
+    cursor: pointer;
+    transform: rotateY(180deg);
+  }
+
+  .card5:hover {
+    cursor: pointer;
+    transform: rotateY(180deg);
+  }
+
+
+  .card6:hover {
+    cursor: pointer;
+    transform: rotateY(180deg);
+  }
+
+
+  
+  .front,
+  .back {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+
+  
+  .back {
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+  }
